@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 5px;
+    height: 45px;
+}
+
+.got {
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

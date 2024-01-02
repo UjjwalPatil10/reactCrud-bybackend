@@ -1,0 +1,331 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.modal-dialog.show {
+  max-width: 100% !important;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.select-inp{
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .modal-lg,
+  .modal-xl {
+    --bs-modal-width: 750px;
+
+  }
+
+  .select-inp {
+    width: 220px;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .auction-name {
+    width: 200px;
+  }
+
+  .view-dateInp {
+    border: 1px solid #ccc;
+    height: 35px;
+    border-radius: 4px;
+  }
+  .startDateInp{
+    border: 1px solid #ccc;
+    height: 35px;
+    border-radius: 4px;
+  }
+  .startTimeInp{
+    border: 1px solid #ccc;
+    height: 35px;
+    border-radius: 4px;
+  }
+  .endDateInp{
+    border: 1px solid #ccc;
+    height: 35px;
+    border-radius: 4px;
+  }
+  .endTimeInp{
+    border: 1px solid #ccc;
+    height: 35px;
+    border-radius: 4px;
+  }
+  .defaultIncrementInp{
+    border: 1px solid #ccc;
+    height: 35px;
+    border-radius: 4px;
+  }
+  /* style={{ border: "1px solid #ccc", height: "35px", borderRadius: "4px" }} */
+  .viewTimeInp{
+    border: 1px solid #ccc;
+    height: 35px;
+    border-radius: 4px;
+
+
+  }
+
+  .add-auction {
+    background-color: #17a2b8 !important;
+
+  }
+.auction-mode{
+  width: 88px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .modal-sm,
+  .modal-md {
+    --bs-modal-width: 650px;
+
+    /* width: 750px; */
+  }
+
+  .view-dateLab {
+    position: relative;
+    left: 7px;
+  }
+
+  /* style={{ width: "228px", height: "37px", border: "1px solid #ccc", borderRadius: "4px" }} */
+  .auction-name {
+    width: 177px;
+  }
+  /* style={{ border: "1px solid #ccc", height: "35px", borderRadius: "4px" }} */
+ 
+  .select-inp {
+    width: 200px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .view-dateInp {
+    border: 1px solid #ccc;
+    height: 36px;
+    border-radius: 4px;
+    position: relative;
+    left: 7px;
+
+  }
+
+  .add-auction {
+    background-color: #17a2b8 !important;
+
+  }
+
+}
+
+
+@media (min-width: 500PX) and (max-width: 575.98px) {
+  .mobile {
+    height: 50px;
+  }
+
+  .add-auction {
+    height: 39px;
+    background-color: #17a2b8 !important;
+    border: none !important;
+    position: absolute;
+    bottom: 6px;
+  }
+  .auction-mode{
+
+    margin-left: 14px;;
+   }
+   .select-inp {
+    width: 200px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+}
+
+@media (min-width: 576PX) and (max-width: 767.98px) {
+  .add-auction {
+    background-color: #17a2b8 !important;
+    border: none !important;
+
+
+  }
+  .select-inp {
+    width: 200px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+}
+
+@media (min-width: 576px)and (max-width: 767.98px) {
+  .modal-sm {
+    --bs-modal-width: 529px;
+  }
+}
+
+@media (min-width: 576px)and (max-width: 767.98px) {
+  .modal-sm {
+    --bs-modal-width: 529px;
+  }
+  .auction-mode{
+
+    margin-left: 14px;;
+   }
+}
+@media (min-width: 300px) and (max-width:499.98px){
+.col-sm-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+.mobile {
+  height: 50px;
+}
+.add-auction{
+  position: absolute;
+  /* left: 23px; */
+  right: -35px;
+  bottom: 15px;
+
+}
+ .select-inp {
+    width: 200px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+ 
+
+}
+
+@media (min-width: 300px) and (max-width: 499.98px) {
+  .row [class^="col-"] {
+      width: 100% !important;
+      margin-bottom: 10px;
+  }
+
+  .auction-name {
+      width: 50%;
+  }
+  .auction{
+    width: 50%;
+  }
+  .auction-mode{
+
+   margin-left: 14px;;
+  }
+
+  .auction-result{
+    height: 0px;
+  }
+  .nameInp{
+    border: 1px solid #ccc;
+    height: 35px;
+    border-radius: 4px;
+    width: 200px;
+      }
+}
+
+
+.header-background{
+background-color: gainsboro;
+}
+
+/* style={{ position: "relative", left: "65px" }} */
+.dashboard{
+position: relative;
+left: 65px;
+}
+.dash-para{
+font-size: 23px;
+}
+.auction-btn{
+position: relative;
+right: 65px;
+align-items: center;
+}
+
+.nameInp{
+  border: 1px solid #ccc;
+  height: 35px;
+  border-radius: 4px;
+    }
+
+
+    .header{
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      margin: 5px;
+      height: 45px;
+  }
+  
+  .got {
+      height: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .hover-effect:hover {
+    transition: color 0.3s ease !important;
+    color: red !important;
+    border-bottom: 3px solid !important;
+    height: 45px !important;
+  }
+/* @media (min-width: 576px)
+ .modal-dialog {
+     max-width: var(--bs-modal-width);
+     margin-right: auto;
+     margin-left: auto;
+ } */
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
